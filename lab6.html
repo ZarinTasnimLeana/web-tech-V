@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="DailyFlash - Breaking news and trending stories from around the world.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyFlash | Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #1a73e8;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a.active {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        section.articles {
+            flex: 3;
+            margin-right: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        article img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+        aside {
+            flex: 1;
+            background: #f4f4f4;
+            padding: 15px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #1a73e8;
+            margin: 0 5px;
+            text-decoration: none;
+        }
+        .ad-box {
+            background: #ddd;
+            padding: 10px;
+            margin-top: 15px;
+            text-align: center;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+        .back-top {
+            display: block;
+            margin-top: 20px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="DailyFlash Logo">
+        <div>
+            <h1>DailyFlash</h1>
+            <p>Your Source for Instant News</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="world.html">World</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="articles">
+            <article>
+                <h2>World Leaders Meet for Climate Summit</h2>
+                <small>Published: Nov 15, 2025</small>
+                <img src="climate.jpg" alt="Climate Summit">
+                <p>World leaders gathered today to discuss urgent climate actions aimed at reducing global warming and ensuring a sustainable future. Key policies and commitments were outlined.</p>
+                <a href="#">Read More</a>
+                <hr>
+            </article>
+            <article>
+                <h2>National Team Wins Championship</h2>
+                <small>Published: Nov 14, 2025</small>
+                <img src="sports.jpg" alt="Championship">
+                <p>The national team triumphed in an exciting championship match last night, marking a historic win. Fans celebrated nationwide with parades and festivities.</p>
+                <a href="#">Read More</a>
+                <hr>
+            </article>
+            <article>
+                <h2>New Smartphone Sets Record Sales</h2>
+                <small>Published: Nov 13, 2025</small>
+                <img src="smartphone.jpg" alt="Smartphone">
+                <p>The latest smartphone release broke all previous sales records in its first week, highlighting growing consumer demand and cutting-edge technology features.</p>
+                <a href="#">Read More</a>
+                <hr>
+            </article>
+            <a class="back-top" href="#top">Back to Top</a>
+        </section>
+
+        <aside>
+            <h3>Top Headlines</h3>
+            <ul>
+                <li><a href="#">Global Market Hits New High</a></li>
+                <li><a href="#">Health Officials Announce New Guidelines</a></li>
+                <li><a href="#">Tech Conference Opens in Silicon Valley</a></li>
+                <li><a href="#">New Movie Breaks Box Office Records</a></li>
+                <li><a href="#">Environmental Activists Rally</a></li>
+            </ul>
+
+            <h4>Editor's Pick</h4>
+            <ul>
+                <li><a href="#">Exclusive Interview with CEO</a></li>
+                <li><a href="#">Behind the Scenes: Championship Match</a></li>
+            </ul>
+
+            <div class="ad-box">
+                Advertisement Space
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 DailyFlash | All Rights Reserved.</p>
+        <p>
+            <a href="#">Facebook</a> |
+            <a href="#">X</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
