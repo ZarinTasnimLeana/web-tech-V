@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="TasteHub - Explore our mouth-watering restaurant menu with starters, main course, desserts, and drinks.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteHub Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8b400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        article {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #f85c00;
+        }
+        img {
+            max-width: 150px;
+            display: block;
+            margin-top: 10px;
+        }
+        .price {
+            float: right;
+            font-weight: bold;
+        }
+        aside {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #f8b400;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body id="top">
+    <header>
+        <h1>TasteHub Restaurant</h1>
+        <p>Deliciousness Delivered Fresh Every Day!</p>
+        <nav>
+            <a href="#starters">Starters</a>
+            <a href="#maincourse">Main Course</a>
+            <a href="#desserts">Desserts</a>
+            <a href="#drinks">Drinks</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Starters Section -->
+        <section id="starters">
+            <h2>Starters</h2>
+            <article>
+                <strong>Bruschetta</strong> - Grilled bread topped with fresh tomatoes and basil. <span class="price">$6.99</span>
+                <img src="https://via.placeholder.com/150" alt="Bruschetta">
+            </article>
+            <article>
+                <strong>Garlic Bread</strong> - Crispy garlic butter bread slices. <span class="price">$4.99</span>
+                <img src="https://via.placeholder.com/150" alt="Garlic Bread">
+            </article>
+            <a href="#top">Back to Top</a>
+        </section>
+        <hr>
+
+        <!-- Main Course Section -->
+        <section id="maincourse">
+            <h2>Main Course</h2>
+            <article>
+                <strong>Grilled Chicken</strong> - Marinated chicken grilled to perfection. <span class="price">$12.99</span>
+                <img src="https://via.placeholder.com/150" alt="Grilled Chicken">
+            </article>
+            <article>
+                <strong>Veggie Pasta</strong> - Pasta with fresh vegetables and tomato sauce. <span class="price">$10.99</span>
+                <img src="https://via.placeholder.com/150" alt="Veggie Pasta">
+            </article>
+            <a href="#top">Back to Top</a>
+        </section>
+        <hr>
+
+        <!-- Desserts Section -->
+        <section id="desserts">
+            <h2>Desserts</h2>
+            <article>
+                <strong>Chocolate Lava Cake</strong> - Rich chocolate cake with molten center. <span class="price">$5.99</span>
+                <img src="https://via.placeholder.com/150" alt="Chocolate Lava Cake">
+            </article>
+            <article>
+                <strong>Ice Cream Sundae</strong> - Vanilla ice cream with chocolate sauce and nuts. <span class="price">$4.99</span>
+                <img src="https://via.placeholder.com/150" alt="Ice Cream Sundae">
+            </article>
+            <a href="#top">Back to Top</a>
+        </section>
+        <hr>
+
+        <!-- Drinks Section -->
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <article>
+                <strong>Lemonade</strong> - Freshly squeezed lemonade. <span class="price">$2.99</span>
+                <img src="https://via.placeholder.com/150" alt="Lemonade">
+            </article>
+            <article>
+                <strong>Coffee</strong> - Hot brewed coffee. <span class="price">$2.49</span>
+                <img src="https://via.placeholder.com/150" alt="Coffee">
+            </article>
+            <a href="#top">Back to Top</a>
+        </section>
+        <hr>
+
+        <!-- Chef's Special -->
+        <section id="chefs-special">
+            <h2>Chef’s Special</h2>
+            <fieldset>
+                <legend>Featured Dishes</legend>
+                <article>
+                    <strong>Steak Deluxe</strong> - Juicy steak with herbs and butter. <span class="price">$18.99</span>
+                    <img src="https://via.placeholder.com/150" alt="Steak Deluxe">
+                </article>
+                <article>
+                    <strong>Seafood Platter</strong> - Fresh seafood assortment. <span class="price">$22.99</span>
+                    <img src="https://via.placeholder.com/150" alt="Seafood Platter">
+                </article>
+            </fieldset>
+            <a href="#top">Back to Top</a>
+        </section>
+
+        <!-- Daily Offers -->
+        <aside>
+            <h3>Daily Offers</h3>
+            <p>Get 10% off on all desserts today!</p>
+        </aside>
+
+        <!-- Book a Table -->
+        <p><a href="#">Book a Table</a></p>
+    </main>
+
+    <footer>
+        <p>Restaurant Address: 123 Flavor Street, Food City</p>
+        <p>Contact Number: +880 1234 567890 | Opening Hours: 10:00 AM - 10:00 PM</p>
+        <p>Follow us: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+        <p>© 2025 TasteHub Restaurant | All Rights Reserved</p>
+        <p><a href="#top">Back to Top</a></p>
+    </footer>
+</body>
+</html>
